@@ -1,0 +1,19 @@
+{
+  "name": "alob",
+  "version": "1.0.0",
+  "description": "alob engineering concept webiste(landing page)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss CSS/styles.css -w"
+  },
+  "keywords": [
+    "Mukaram",
+    "Adeniran"
+  ],
+  "author": "Mukaram Adeniran",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
