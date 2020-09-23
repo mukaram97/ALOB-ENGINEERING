@@ -1,0 +1,54 @@
+.contact-section2 {
+    padding: 5rem 15rem;
+
+    @include respond(phone) {
+        padding: 2rem 10rem;
+
+    
+        
+    }
+}
+
+
+
+.tertiary-heading{
+    font-weight: 600;
+    font-size: 4rem;
+
+
+    &:after {
+        display:block;
+        height: 2px;
+        background-color: $color-primary;
+        content: " ";
+        width: 120px;
+        
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+    
+}
+
+.info {
+    font-size: 5rem;
+    display: inline-block;
+    float: left;
+    color: $color-primary;
+    padding-right: 5rem;
+}
+
+
+.details {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.phone {
+    font-size: 2.5rem;
+    display: inline;
+}
+
+.contact-info {
+    margin-top: 2.5rem;
+
+}

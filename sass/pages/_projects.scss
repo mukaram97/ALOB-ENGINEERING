@@ -1,0 +1,59 @@
+.projects {
+    margin-top: -20vh;
+    background-color: $color-grey-light-2;
+    color: orangered;
+    padding: 10rem 20rem;
+
+    @include respond(tab-port) {
+        padding: 5rem 10rem;
+    }
+
+    @include respond(phone) {
+        padding: 5rem 20rem 10rem 6rem;
+        margin-top: -10vh;
+    }
+
+    &__status {
+        background-color: $color-grey-light-2;
+        color: $color-primary-dark;
+        font-size: 1.7rem;
+        font-weight: 900;;
+        position: absolute;
+        top: 17rem;
+        padding: 1rem;
+
+    }
+
+    &__info {
+        font-size: 2rem;
+        text-align: center;
+        color: $color-primary-dark;
+    }
+
+    &__image {
+        position: relative;
+
+    }
+
+
+    &__materials {
+        color: $color-primary-dark;
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 900;
+        width: 60rem;
+    }
+}
+
+.border {
+        
+    border: 2px solid $color-primary-dark;
+}
+
+.heading-secondary {
+    @include respond(phone) {
+        font-size: 2rem;
+        margin-left: 10rem;
+        margin-top: 3rem;
+    }
+}

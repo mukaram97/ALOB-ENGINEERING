@@ -1,0 +1,30 @@
+.concept-box {
+    text-align: justify;
+    
+
+    @include respond(phone) {
+        margin-top: 5rem;
+
+    
+        
+    }
+}
+
+.heading-secondary {
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+
+    &:not(:first-child) {
+        margin: 20rem;
+    }
+}
+
+.concept {
+    margin-top: 10rem;
+    margin-left: 50rem;
+
+    @include respond(phone) {
+        margin-left: 15rem;   
+    }
+}
+
